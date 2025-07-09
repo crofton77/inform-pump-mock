@@ -1,0 +1,122 @@
+[
+  {
+    "Pump Name": "Pump 1",
+    "Type": "Centrifugal",
+    "Area/Block": "Area A",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "1000 GPM",
+    "Offset": "5 sec",
+    "Current Pressure": "150 psi",
+    "Min Pressure": "120 psi",
+    "Max Pressure": "180 psi"
+  },
+  {
+    "Pump Name": "Pump 2",
+    "Type": "Submersible",
+    "Area/Block": "Area B",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "800 GPM",
+    "Offset": "3 sec",
+    "Current Pressure": "130 psi",
+    "Min Pressure": "100 psi",
+    "Max Pressure": "160 psi"
+  },
+  {
+    "Pump Name": "Pump 3",
+    "Type": "Diaphragm",
+    "Area/Block": "Area C",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "600 GPM",
+    "Offset": "2 sec",
+    "Current Pressure": "110 psi",
+    "Min Pressure": "80 psi",
+    "Max Pressure": "150 psi"
+  },
+  {
+    "Pump Name": "Pump 4",
+    "Type": "Rotary",
+    "Area/Block": "Area D",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "500 GPM",
+    "Offset": "1 sec",
+    "Current Pressure": "90 psi",
+    "Min Pressure": "60 psi",
+    "Max Pressure": "120 psi"
+  },
+  {
+    "Pump Name": "Pump 5",
+    "Type": "Peristaltic",
+    "Area/Block": "Area E",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "300 GPM",
+    "Offset": "6 sec",
+    "Current Pressure": "70 psi",
+    "Min Pressure": "40 psi",
+    "Max Pressure": "100 psi"
+  },
+  {
+    "Pump Name": "Pump 6",
+    "Type": "Centrifugal",
+    "Area/Block": "Area F",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "1200 GPM",
+    "Offset": "6 ft",
+    "Current Pressure": "170 psi",
+    "Min Pressure": "140 psi",
+    "Max Pressure": "200 psi"
+  },
+  {
+    "Pump Name": "Pump 7",
+    "Type": "Submersible",
+    "Area/Block": "Area G",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "1000 GPM",
+    "Offset": "3 sec",
+    "Current Pressure": "150 psi",
+    "Min Pressure": "100 psi",
+    "Max Pressure": "180 psi"
+  },
+  {
+    "Pump Name": "Pump 8",
+    "Type": "Diaphragm",
+    "Area/Block": "Area H",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "900 GPM",
+    "Offset": "4 sec",
+    "Current Pressure": "130 psi",
+    "Min Pressure": "90 psi",
+    "Max Pressure": "160 psi"
+  },
+  {
+    "Pump Name": "Pump 9",
+    "Type": "Rotary",
+    "Area/Block": "Area I",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "700 GPM",
+    "Offset": "2 sec",
+    "Current Pressure": "100 psi",
+    "Min Pressure": "80 psi",
+    "Max Pressure": "140 psi"
+  },
+  {
+    "Pump Name": "Pump 10",
+    "Type": "Peristaltic",
+    "Area/Block": "Area J",
+    "Latitude": 34.0522,
+    "Longitude": -118.2437,
+    "Flow Rate": "400 GPM",
+    "Offset": "1 sec",
+    "Current Pressure": "90 psi",
+    "Min Pressure": "60 psi",
+    "Max Pressure": "120 psi"
+  }
+]
