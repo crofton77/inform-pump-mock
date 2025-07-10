@@ -6,7 +6,7 @@ import '../app/globals.css'; // Import global styles
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <HeroUIProvider>
-            <NextThemesProvider attribute="class" defaultTheme="dark">
+            <NextThemesProvider attribute="class" defaultTheme="light">
                 <Component {...pageProps} />
             </NextThemesProvider>
         </HeroUIProvider>
