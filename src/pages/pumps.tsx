@@ -105,11 +105,17 @@ export default function Pumps() {
         let sortablePumps = [...filteredPumps];
         if (sortConfig !== null) {
             sortablePumps.sort((a, b) => {
-                if (a[sortConfig.key] < b[sortConfig.key]) {
-                    return sortConfig.direction === 'ascending' ? -1 : 1;
-                }
-                if (a[sortConfig.key] > b[sortConfig.key]) {
-                    return sortConfig.direction === 'ascending' ? 1 : -1;
+                if (sortConfig.key in a && sortConfig.key in b) {
+                    const aValue = a[sortConfig.key as keyof Pump];
+                    const bValue = b[sortConfig.key as keyof Pump];
+                    if (aValue !== undefined && bValue !== undefined) {
+                        if (aValue < bValue) {
+                            return sortConfig.direction === 'ascending' ? -1 : 1;
+                        }
+                        if (aValue > bValue) {
+                            return sortConfig.direction === 'ascending' ? 1 : -1;
+                        }
+                    }
                 }
                 return 0;
             });
@@ -197,7 +203,9 @@ export default function Pumps() {
     };
 
     const handleItemsPerPageChange = (keys: SharedSelection) => {
-        setItemsPerPage(keys.currentKey);
+        if(keys.currentKey != undefined) {
+            setItemsPerPage(Number(keys.currentKey));
+        }
         setCurrentPage(1); // Reset to first page when changing items per page
     }
 
@@ -289,11 +297,11 @@ export default function Pumps() {
                         </Button>
                         <Pagination
                             total={totalPages}
-                            current={currentPage}
+                            page={currentPage}
                             onChange={handlePageChange}
                         />
                         <Button
-                            onClick={handleNextPage}
+                            onChange={handleNextPage}
                             isDisabled={currentPage === totalPages}
                             color="primary"
                             size="sm"
