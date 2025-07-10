@@ -59,7 +59,7 @@ export default function Pumps() {
     useEffect(() => {
         const fetchPumps = async () => {
             try {
-                const response = await fetch('/pumps_data.json');
+                const response = await fetch('pumps_data.json');
                 if (!response.ok) {
                     throw new Error(`Failed to fetch pumps data: ${response.status}`);
                 }
